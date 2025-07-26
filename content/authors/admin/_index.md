@@ -88,7 +88,7 @@ work:
       - Migrated infrastructure to a new data center
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-- position: Postdoctoral Research Scholar
+  - position: Postdoctoral Research Scholar
     company_name: Harvard University, Cambridge MA, USA
     company_url: ''
     company_logo: ''
