@@ -48,12 +48,12 @@ interests:
   - Polaritonic Chemistry
 
 education:
-  - area: PhD Physics
+  - area: PhD in Physics
     institution: Universität Hamburg
     date_start: 2016-09-15
     date_end: 2021-06-08
     summary: |
-      Thesis on Ab initio Strong Light-Matter Theoretical Framework for Phenomena in Non-relativistic Quantum Electrodynamics. Supervised by [Prof Angel Rubio](https://www.mpsd.mpg.de/person/angelrubio/12824) at the Max Planck Institute for the Structure and Dynamics of Matter (https://www.mpsd.mpg.de/institute).
+      Thesis on [Ab initio Strong Light-Matter Theoretical Framework for Phenomena in Non-relativistic Quantum Electrodynamics](https://ediss.sub.uni-hamburg.de/handle/ediss/9069). Supervised by [Prof Angel Rubio](https://www.mpsd.mpg.de/person/angelrubio/12824) at the [Max Planck Institute for the Structure and Dynamics of Matter](https://www.mpsd.mpg.de/institute).
     button:
       text: 'Read Thesis'
       url: 'https://ediss.sub.uni-hamburg.de/handle/ediss/9069'
@@ -189,6 +189,6 @@ awards:
 
 I am an active researcher with broad and evolving interests in cutting-edge areas of theoretical and computational physics and chemistry. My research spans multiple interdisciplinary fields, including polaritonic chemistry, high-harmonic generation, and the generation of nonclassical states of light, where I explore light-matter interactions from both fundamental and applied perspectives.
 
-In parallel with my research, I am a core developer of Octopus(https://octopus-code.org/), a Fortran-based open-source code for real-space time-dependent density functional theory (TDDFT). My contributions focus on extending its capabilities for simulating complex quantum dynamics interacting with the electromagnetic field from first-principles and ensuring robust, scalable performance on modern computing architectures.
+In parallel with my research, I am a core developer of [Octopus](https://octopus-code.org/), a Fortran-based open-source code for real-space time-dependent density functional theory (TDDFT). My contributions focus on extending its capabilities for simulating complex quantum dynamics interacting with the electromagnetic field from first-principles and ensuring robust, scalable performance on modern computing architectures.
 
 I also work as an HPC Applications Engineer, where I specialize in optimizing scientific applications for high-performance computing systems, with a focus on improving performance on both CPU and GPU platforms. My goal is to bridge the gap between physical theory, numerical methods, and hardware performance to enable large-scale simulations that push the boundaries of current research.
