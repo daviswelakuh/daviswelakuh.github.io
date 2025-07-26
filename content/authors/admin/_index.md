@@ -207,4 +207,8 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an active researcher with broad and evolving interests in cutting-edge areas of theoretical and computational physics and chemistry. My research spans multiple interdisciplinary fields, including polaritonic chemistry, high-harmonic generation, and the generation of nonclassical states of light, where I explore light-matter interactions from both fundamental and applied perspectives.
+
+In parallel with my research, I am a core developer of Octopus(https://octopus-code.org/), a Fortran-based open-source code for real-space time-dependent density functional theory (TDDFT). My contributions focus on extending its capabilities for simulating complex quantum dynamics interacting with the electromagnetic field from first-principles and ensuring robust, scalable performance on modern computing architectures.
+
+I also work as an HPC Applications Engineer, where I specialize in optimizing scientific applications for high-performance computing systems, with a focus on improving performance on both CPU and GPU platforms. My goal is to bridge the gap between physical theory, numerical methods, and hardware performance to enable large-scale simulations that push the boundaries of current research.
