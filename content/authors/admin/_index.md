@@ -33,12 +33,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:davis.welakuh.research@gmail.com'
     label: E-mail Me
- # - icon: brands/x
- #   url: https://twitter.com/GetResearchDev
- # - icon: brands/instagram
- #   url: https://www.instagram.com/
- # - icon: brands/github
- #   url: https://github.com/gcushen
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/davis-welakuh-10a5b928/
   - icon: academicons/google-scholar
@@ -47,7 +41,7 @@ profiles:
     url: https://orcid.org/my-orcid?orcid=0000-0002-9585-3406
 
 interests:
-  - Artificial Intelligence
+  - HPC Application Performance
   - Electronic Structure
   - High-harmonic Generation
   - Quantum Optics
@@ -67,24 +61,10 @@ education:
     institution: Univeristy of Buea
     date_start: 2013-10-01
     date_end: 2015-07-31
-#    summary: |
-#      GPA: 3.8/4.0
-#
-#      Courses included:
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: B.Sc. in Physics
     institution: Univeristy of Buea
     date_start: 2010-10-01
     date_end: 2013-07-31
-#    summary: |
-#      GPA: 3.4/4.0
-#      
-#      Courses included:
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Postdoctoral Research Fellow
     company_name: Simons Center for Computational Physical Chemistry, New York University, USA
