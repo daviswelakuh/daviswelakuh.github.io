@@ -20,87 +20,111 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Research Scientist
+role: Researcher and HPC Applications Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Hewlett Packard Enterprise (HPE)
+    url: https://hpe.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:davis.welakuh.research@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
+ # - icon: brands/x
+ #   url: https://twitter.com/GetResearchDev
+ # - icon: brands/instagram
+ #   url: https://www.instagram.com/
+ # - icon: brands/github
+ #   url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/davis-welakuh-10a5b928/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=3ajskXsAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/my-orcid?orcid=0000-0002-9585-3406
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Electronic Structure
+  - High-harmonic Generation
+  - Quantum Optics
+  - Polaritonic Chemistry
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Physics
+    institution: Universität Hamburg
+    date_start: 2016-09-15
+    date_end: 2021-06-08
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on Ab initio Strong Light-Matter Theoretical Framework for Phenomena in Non-relativistic Quantum Electrodynamics. Supervised by [Prof Angel Rubio](https://www.mpsd.mpg.de/person/angelrubio/12824) at the Max Planck Institute for the Structure and Dynamics of Matter (https://www.mpsd.mpg.de/institute).
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      url: 'https://ediss.sub.uni-hamburg.de/handle/ediss/9069'
+  - area: M.Sc. in Physics
+    institution: Univeristy of Buea
+    date_start: 2013-10-01
+    date_end: 2015-07-31
+#    summary: |
+#      GPA: 3.8/4.0
+#
+#      Courses included:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: B.Sc. in Physics
+    institution: Univeristy of Buea
+    date_start: 2010-10-01
+    date_end: 2013-07-31
+#    summary: |
+#      GPA: 3.4/4.0
+#      
+#      Courses included:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Postdoctoral Research Fellow
+    company_name: Simons Center for Computational Physical Chemistry, New York University, USA
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
+    date_start: 2023-07-01
+    date_end: '2024-01-31'
+    summary: |
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+  - position: Postdoctoral Research Scholar
+    company_name: University of California, Los Angeles CA, USA.
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-07-01
+    date_end: 2023-06-30
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+- position: Postdoctoral Research Scholar
+    company_name: Harvard University, Cambridge MA, USA
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-06-15
+    date_end: 2023-06-30
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Doctoral Research Fellow (IMPRS-UFAST)
+    company_name: Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-09-15
+    date_end: 2021-05-30
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
@@ -144,10 +168,10 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: German
+    percent: 40
+  - name: French
+    percent: 60
 
 # Awards.
 #   Add/remove as many awards below as you like.
