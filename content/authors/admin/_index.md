@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Davis Welakuh, PhD
+title: Davis Welakuh
 
 # Name pronunciation (optional)
 name_pronunciation: ''
