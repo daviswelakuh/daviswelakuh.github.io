@@ -6,8 +6,8 @@ authors:
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2017-11-15T00:00:00Z"
-doi: "10.1016/j.optcom.2017.06.082"
+date: "2015-09-01T00:00:00Z"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -34,7 +34,7 @@ featured: false
 # links:
 # - name: ""
 #url: 'https://doi.org/10.1016/j.optcom.2017.06.082'
-url_pdf: https://arxiv.org/pdf/1706.09023
+url_pdf: http://arxiv.org/pdf/1512.04133v1
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,4 +63,3 @@ projects: []
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: example
----
