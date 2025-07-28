@@ -61,11 +61,27 @@ education:
     institution: Univeristy of Buea
     date_start: 2013-10-01
     date_end: 2015-07-31
+    summary: |
+      Thesis on "Trapping, storage and retrieval of single‑photon solitons in the quantum states of collective atomic excitations."
   - area: B.Sc. in Physics
     institution: Univeristy of Buea
     date_start: 2010-10-01
     date_end: 2013-07-31
+    summary: |
+      Thesis on "Solitons and Modulation instability in Optical fibers."
 work:
+  - position: HPC Applications Engineer -- Computational Chemistry and Physics
+    company_name: Hewlett Packard Enterprise (HPE)
+    company_url: 'https://hpe.com/'
+    company_logo: ''
+    date_start: 2024-02-05
+    date_end: 'Present'
+    summary: |
+      Responsibilities include:
+      - Develop and optimize HPC applications for computational physics/chemistry simulations on multi‑core CPU and GPU‑based systems, improving performance over 30%.
+      - Collaborate with scientific researchers to profile and identify bottlenecks in large‑scale computational physics/chemistry applications, optimizing memory usage and reducing computational times.
+      - Perform benchmarks using computational chemistry/physics software to investigate scaling impacts on different interconnects (i.e. between the newer NVIDIA InfiniBand NDR (Next Data Rate) and HDR (High Data Rate) and a further comparison to HPE Slingshot).
+      - Perform system‑level tuning, benchmarking, and performance evaluations on national supercomputing clusters such as Frontier and NERSC.
   - position: Postdoctoral Research Fellow
     company_name: Simons Center for Computational Physical Chemistry, New York University, USA
     company_url: ''
@@ -74,9 +90,10 @@ work:
     date_end: '2024-01-31'
     summary: |
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Conducting theoretical and computational research in areas of quantum system engineering and nonlinear frequency generation for applications in quantum information processing protocols and nanoscale sources of extreme ultraviolet light.
+      - Collaborating with other scientist (theorist and experimentalist) providing expertise in areas of physical system modeling, quantum system engineering, Big Data and statistical analysis.
+      - Scientific peer review work in top scientific journals.
+      - Active developer and maintainer of my Python-based scientific software, LIBQED.
   - position: Postdoctoral Research Scholar
     company_name: University of California, Los Angeles CA, USA.
     company_url: ''
@@ -85,9 +102,10 @@ work:
     date_end: 2023-06-30
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Conducting theoretical and computational research in areas of quantum system engineering and nonlinear frequency generation for applications in quantum information processing protocols and nanoscale sources of extreme ultraviolet light.
+      - Collaborating with other scientist (theorist and experimentalist) providing expertise in areas of physical system modeling, quantum system engineering, Big Data and statistical analysis.
+      - Scientific peer review work in top scientific journals.
+      - Active developer and maintainer of my Python-based scientific software, LIBQED.
   - position: Postdoctoral Research Scholar
     company_name: Harvard University, Cambridge MA, USA
     company_url: ''
@@ -96,9 +114,10 @@ work:
     date_end: 2023-06-30
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Conducting theoretical and computational research in areas of quantum system engineering and nonlinear frequency generation for applications in quantum information processing protocols and nanoscale sources of extreme ultraviolet light.
+      - Collaborating with other scientist (theorist and experimentalist) providing expertise in areas of physical system modeling, quantum system engineering, Big Data and statistical analysis.
+      - Scientific peer review work in top scientific journals.
+      - Active developer and maintainer of my Python-based scientific software, LIBQED.
   - position: Doctoral Research Fellow (IMPRS-UFAST)
     company_name: Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany
     company_url: ''
@@ -107,9 +126,11 @@ work:
     date_end: 2021-05-30
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Conducted [theoretical](https://doi.org/10.1088/1361-6455/aa9c99) and computational research on controling or modifying properties of matter interacting strongly with photons within quantum electrodynamics environment using first-principles methods.
+      - Extended well-known linear-response ([Casida](https://doi.org/10.1021/acsphotonics.9b00768) and [Sternheimer](https://doi.org/10.1021/acs.jctc.2c00076)) methods for calculating matter properties within time-dependent density-functional theory formalism (DFT) to quantum electrodynamical density-functional theory (QEDFT) that treats strongly coupled matter-photon systems.
+      - Contributed to the programming and development of the open-source scientific software [octopus](https://octopus-code.org/), in a collaborative team environment.
+      - Developed my own Python-based multi-purpose computational software known as LIBQED, to investigate the exact properties of strongly coupled matter-photon systems.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
