@@ -100,14 +100,14 @@ featured: false
 
 # links:
 # - name: ""
-url: https://doi.org/10.1016/j.optcom.2017.06.082
+#url: 'https://doi.org/10.1016/j.optcom.2017.06.082'
 url_pdf: http://arxiv.org/pdf/1512.04133v1
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://doi.org/10.1016/j.optcom.2017.06.082'
 url_video: ''
 
 # Featured image
