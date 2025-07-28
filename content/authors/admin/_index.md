@@ -75,7 +75,7 @@ work:
     company_url: 'https://hpe.com/'
     company_logo: ''
     date_start: 2024-02-05
-    date_end: 'Present'
+    date_end: 
     summary: |
       Responsibilities include:
       - Develop and optimize HPC applications for computational physics/chemistry simulations on multi‑core CPU and GPU‑based systems, improving performance over 30%.
