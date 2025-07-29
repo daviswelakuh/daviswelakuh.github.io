@@ -18,7 +18,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Optics Communications*(1)"
+publication: "*Optics Communications* 403, 15"
 publication_short: ""
 
 abstract: The storage and subsequent retrieval of coherent pulse trains in the quantum memory (i.e. cavity-dark state) of three-level 
