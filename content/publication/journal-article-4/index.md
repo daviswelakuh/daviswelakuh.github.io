@@ -1,16 +1,19 @@
 ---
-title: "Storage and retrieval of time-entangled soliton trains in a three-level atom system coupled to an optical cavity"
+title: "Light-matter response in nonrelativistic quantum electrodynamics"
 authors:
+- Johannes Flick
 - Davis M. Welakuh
-- Alain M. Dikande
+- Michael Ruggenthaler
+- Heiko Appel
+- Angel Rubio
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+date: "2019-10-02T00:00:00Z"
+doi: "10.1016/j.optcom.2017.06.082"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-07-31T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,11 +21,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Optics Communications*(1)"
+publication: "*ACS Photonics*, 6, 11, 2757-778"
 publication_short: ""
 
-abstract: The storage and subsequent retrieval of coherent pulse trains in the quantum memory (i.e. cavity-dark state) of three-level 
- atoms, are considered for an optical medium in which adiabatic photon transfer occurs under the condition of quantum impedance matching. The underlying mechanism is based on intracavity Electromagnetically-Induced Transparency, by which properties of a cavity filled with three-level-type atoms are manipulated by an external control field. Under the impedance matching condition, we derive analytic expressions that suggest a complete transfer of an input field into the cavity-dark state by varying the mixing angle in a specific way, and its subsequent retrieval at a desired time. We illustrate the scheme by demonstrating the complete transfer and retrieval of a Gaussian, a single hyperbolic-secant and a periodic train of time-entangled hyperbolic-secant input photon pulses in the atom–cavity system. For the time-entangled hyperbolic-secant input field, a total controllability of the periodic evolution of the dark state population is made possible by changing the Rabi frequency of the classical driving field, thus allowing to alternately store and retrieve high-intensity photons from the optically dense Electromagnetically-Induced transparent medium. Such multiplexed photon states, which are expected to allow sharing quantum information among many users, are currently of very high demand for applications in long-distance and multiplexed quantum communication.
+abstract: We derive the full linear-response theory for nonrelativistic quantum electrodynamics in the long wavelength limit and provide a practical framework to solve the resulting equations by using quantum-electrodynamical density-functional theory. We highlight how the coupling between quantized light and matter changes the usual response functions and introduces cross-correlated light-matter response functions. These cross-correlation responses lead to measurable changes in Maxwell’s equations due to the quantum-matter-mediated photon–photon interactions. Key features of treating the combined matter-photon response are that natural lifetimes of excitations become directly accessible from first-principles, changes in the electronic structure due to strong light-matter coupling are treated fully nonperturbatively, and self-consistent solutions of the back-reaction of matter onto the photon vacuum and vice versa are accounted for. By introducing a straightforward extension of the random-phase approximation for the coupled matter-photon problem, we calculate the ab initio spectra for a real molecular system that is coupled to the quantized electromagnetic field. Our approach can be solved numerically very efficiently. The presented framework leads to a shift in paradigm by highlighting how electronically excited states arise as a modification of the photon field and that experimentally observed effects are always due to a complex interplay between light and matter. At the same time the findings provide a route to analyze as well as propose experiments at the interface between quantum chemistry, nanoplasmonics and quantum optics.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -34,7 +36,7 @@ featured: false
 # links:
 # - name: ""
 #url: 'https://doi.org/10.1016/j.optcom.2017.06.082'
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://pubs.acs.org/doi/pdf/10.1021/acsphotonics.9b00768?ref=article_openPDF
 url_code: ''
 url_dataset: ''
 url_poster: ''

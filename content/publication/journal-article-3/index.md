@@ -1,16 +1,18 @@
 ---
-title: "Storage and retrieval of time-entangled soliton trains in a three-level atom system coupled to an optical cavity"
+title: "Light–matter interaction in the long-wavelength limit: No ground-state without dipole self-energy"
 authors:
+- Vasil Rokaj
 - Davis M. Welakuh
-- Alain M. Dikande
+- Michael Ruggenthaler
+- Angel Rubio
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+date: "2018-01-16T00:00:00Z"
+doi: "10.1088/1361-6455/aa9c99"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-07-31T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,11 +20,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Optics Communications*(1)"
+publication: "*Journal of Physics B: Atomic, Molecular and Optical Physics*, 51, 034005"
 publication_short: ""
 
-abstract: The storage and subsequent retrieval of coherent pulse trains in the quantum memory (i.e. cavity-dark state) of three-level 
- atoms, are considered for an optical medium in which adiabatic photon transfer occurs under the condition of quantum impedance matching. The underlying mechanism is based on intracavity Electromagnetically-Induced Transparency, by which properties of a cavity filled with three-level-type atoms are manipulated by an external control field. Under the impedance matching condition, we derive analytic expressions that suggest a complete transfer of an input field into the cavity-dark state by varying the mixing angle in a specific way, and its subsequent retrieval at a desired time. We illustrate the scheme by demonstrating the complete transfer and retrieval of a Gaussian, a single hyperbolic-secant and a periodic train of time-entangled hyperbolic-secant input photon pulses in the atom–cavity system. For the time-entangled hyperbolic-secant input field, a total controllability of the periodic evolution of the dark state population is made possible by changing the Rabi frequency of the classical driving field, thus allowing to alternately store and retrieve high-intensity photons from the optically dense Electromagnetically-Induced transparent medium. Such multiplexed photon states, which are expected to allow sharing quantum information among many users, are currently of very high demand for applications in long-distance and multiplexed quantum communication.
+abstract: Most theoretical studies for correlated light–matter systems are performed within the long-wavelength limit, i.e., the electromagnetic field is assumed to be spatially uniform. In this limit the so-called length-gauge transformation for a fully quantized light–matter system gives rise to a dipole self-energy term in the Hamiltonian, i.e., a harmonic potential of the total dipole matter moment. In practice this term is often discarded as it is assumed to be subsumed in the kinetic energy term. In this work we show the necessity of the dipole self-energy term. First and foremost, without it the light–matter system in the long-wavelength limit does not have a ground-state, i.e., the combined light–matter system is unstable. Further, the mixing of matter and photon degrees of freedom due to the length-gauge transformation, which also changes the representation of the translation operator for matter, gives rise to the Maxwell equations in matter and the omittance of the dipole self-energy leads to a violation of these equations. Specifically we show that without the dipole self-energy the so-called ‘depolarization shift’ is not properly described. Finally we show that this term also arises if we perform the semi-classical limit after the length-gauge transformation. In contrast to the standard approach where the semi-classical limit is performed before the length-gauge transformation, the resulting Hamiltonian is bounded from below and thus supports ground-states. This is very important for practical calculations and for density-functional variational implementations of the non-relativistic QED formalism. For example, the existence of a combined light–matter ground-state allows one to calculate the Stark shift non-perturbatively.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -33,14 +34,14 @@ featured: false
 
 # links:
 # - name: ""
-#url: 'https://doi.org/10.1016/j.optcom.2017.06.082'
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+#url: 'https://dx.doi.org/10.1088/1361-6455/aa9c99'
+url_pdf: https://arxiv.org/pdf/1807.03635
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://doi.org/10.1016/j.optcom.2017.06.082'
+url_source: 'https://dx.doi.org/10.1088/1361-6455/aa9c99'
 url_video: ''
 
 # Featured image

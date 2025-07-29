@@ -1,16 +1,19 @@
 ---
-title: "Storage and retrieval of time-entangled soliton trains in a three-level atom system coupled to an optical cavity"
+title: "Down-conversion processes in ab-initio non-relativistic quantum electrodynamics"
 authors:
 - Davis M. Welakuh
-- Alain M. Dikande
+- Michael Ruggenthaler
+- Mary-Leena M. Tchenkoue
+- Heiko Appel
+- Angel Rubio
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2021-09-19T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-07-31T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,11 +21,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Optics Communications*(1)"
+publication: "*Phys. Rev. Research*, 3, 3, 033067"
 publication_short: ""
 
-abstract: The storage and subsequent retrieval of coherent pulse trains in the quantum memory (i.e. cavity-dark state) of three-level 
- atoms, are considered for an optical medium in which adiabatic photon transfer occurs under the condition of quantum impedance matching. The underlying mechanism is based on intracavity Electromagnetically-Induced Transparency, by which properties of a cavity filled with three-level-type atoms are manipulated by an external control field. Under the impedance matching condition, we derive analytic expressions that suggest a complete transfer of an input field into the cavity-dark state by varying the mixing angle in a specific way, and its subsequent retrieval at a desired time. We illustrate the scheme by demonstrating the complete transfer and retrieval of a Gaussian, a single hyperbolic-secant and a periodic train of time-entangled hyperbolic-secant input photon pulses in the atom–cavity system. For the time-entangled hyperbolic-secant input field, a total controllability of the periodic evolution of the dark state population is made possible by changing the Rabi frequency of the classical driving field, thus allowing to alternately store and retrieve high-intensity photons from the optically dense Electromagnetically-Induced transparent medium. Such multiplexed photon states, which are expected to allow sharing quantum information among many users, are currently of very high demand for applications in long-distance and multiplexed quantum communication.
+abstract: The availability of efficient photon sources with specific properties is important for quantum-technological applications. However, the realization of such photon sources is often challenging and hence alternative perspectives that suggest different means to enhance desired properties while suppressing detrimental processes are valuable. In this work we highlight that ab initio simulations of coupled light-matter systems can provide such alternative avenues. We show for a simple model of a quantum ring that by treating light and matter on equal footing, we can create and enhance pathways for down-conversion processes. By changing the matter subsystem as well as the photonic environment in experimentally feasible ways, we can engineer hybrid light-matter states that enhance at the same time the efficiency of the down-conversion process and the nonclassicality of the created photons. Furthermore, we show that this also leads to a faster down-conversion, potentially avoiding detrimental decoherence effects.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -33,14 +35,14 @@ featured: false
 
 # links:
 # - name: ""
-#url: 'https://doi.org/10.1016/j.optcom.2017.06.082'
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+#url: 'https://doi.org/10.1103/PhysRevResearch.3.033067'
+url_pdf: https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.3.033067
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://doi.org/10.1016/j.optcom.2017.06.082'
+url_source: 'https://doi.org/10.1103/PhysRevResearch.3.033067'
 url_video: ''
 
 # Featured image
