@@ -25,10 +25,11 @@
   "work": [
     {
       "name": "Hewlett Packard Enterprise, NY, USA",
+      "location": "New York, USA",
       "position": "Senior HPC Application Engineer: Computational Physics and Chemistry",
       "url": "https://hpe.com",
       "startDate": "2024-02-05",
-      "endDate": "Present",
+      "endDate": " ",
       "highlights": ["Develop and optimize HPC applications for computational.", "Collaborate with sc."]
     }       
   ],
