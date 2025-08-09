@@ -6,7 +6,7 @@
     "email": "davis.welakuh.research@gmail.com",
     "phone": "(781) 219-1123",
     "url": "https://daviswelakuh.github.io/",
-    "summary": ["A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time", "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time"],
+    "summary": "A highly skilled High-Performance Computing (HPC) Application Engineer with focus on computational physics and chemistry software. Extensive experience in developing, optimizing, and scaling scientific and engineering applications for large-scale HPC and AI systems.",
     "location": {
       "address": "461 5th Ave",
       "postalCode": "NY 10017",
@@ -24,14 +24,50 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
+      "name": "Hewlett Packard Enterprise, NY, USA",
+      "location": "New York, USA",
+      "position": "Senior HPC Application Engineer: Computational Physics and Chemistry",
+      "url": "https://hpe.com",
+      "startDate": "2024-02-05",
+      "endDate": "Present",
+      "highlights": ["Develop and optimize HPC applications for computational physics/chemistry simulations on multi-core CPU and GPU-based systems, improving performance.", "Collaborate with scientific researchers to profile and identify bottlenecks in large-scale computational physics/chemistry applications, optimizing memory usage and reducing computational times.", "Perform system-level tuning, benchmarking, and performance evaluations on national supercomputing clusters such as Frontier and NERSC."]
+    },
+    {
+      "name": "New York University, New York NY, USA",
+      "location": "New York, USA",
+      "position": "Postdoctoral Research Fellow",
+      "url": "https://wp.nyu.edu/sccpc/",
+      "startDate": "2023-07-01",
+      "endDate": "2024-01-31",
+      "highlights": ["Conducting theoretical and computational research in areas of quantum system engineering and nonlinear frequency generation for applications in quantum information processing protocols and nanoscale sources of extreme ultraviolet light.", "Collaborating with other scientist (theorist and experimentalist) providing expertise in areas of physical system modeling, quantum system engineering, Big Data and statistical analysis.", "Scientific peer review work in top scientific journals.", "Active developer and maintainer of my Python-based scientific software, LIBQED."]
+    },
+    {
+      "name": "University of California, Los Angeles CA, USA.",
+      "location": "California, USA",
+      "position": "Postdoctoral Research Scholar",
+      "url": "https://www.chemistry.ucla.edu/",
+      "startDate": "2022-07-01",
+      "endDate": "2023-07-30",
+      "highlights": ["Conducting theoretical and computational research in areas of quantum system engineering and nonlinear frequency generation for applications in quantum information processing protocols and nanoscale sources of extreme ultraviolet light.", "Collaborating with other scientist (theorist and experimentalist) providing expertise in areas of physical system modeling, quantum system engineering, Big Data and statistical analysis.", "Scientific peer review work in top scientific journals.", "Active developer and maintainer of my Python-based scientific software, LIBQED."]
+    },
+    {
+      "name": "Harvard Univeristy, Cambridge MA, USA.",
+      "location": "Massachusetts, USA",
+      "position": "Postdoctoral Research Scholar",
+      "url": "https://seas.harvard.edu/",
+      "startDate": "2021-06-15",
+      "endDate": "2023-07-30",
+      "highlights": ["Conducting theoretical and computational research in areas of quantum system engineering and nonlinear frequency generation for applications in quantum information processing protocols and nanoscale sources of extreme ultraviolet light.", "Collaborating with other scientist (theorist and experimentalist) providing expertise in areas of physical system modeling, quantum system engineering, Big Data and statistical analysis.", "Scientific peer review work in top scientific journals.", "Active developer and maintainer of my Python-based scientific software, LIBQED."]
+    }, 
+    {
+      "name": "Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany.",
+      "location": "Hamburg, Germany",
+      "position": "Doctoral Research Scholar",
+      "url": "https://www.mpsd.mpg.de/en",
+      "startDate": "2016-09-15",
+      "endDate": "2021-05-31",
+      "highlights": ["Conducted theoretical and computational research on controling or modifying properties of matter interacting strongly with photons within quantum electrodynamics environment using first-principles methods.", "Extended well-known linear-response Casida and Sternheimer methods for calculating matter properties within time-dependent density-functional theory formalism (DFT) to quantum electrodynamical density-functional theory (QEDFT) that treats strongly coupled matter-photon systems.", "Contributed to the programming and development of the open-source scientific software octopus, in a collaborative team environment.", "Developed my own Python-based multi-purpose computational software known as LIBQED, to investigate the exact properties of strongly coupled matter-photon systems."]
+    }       
   ],
   "volunteer": [
     {
@@ -47,13 +83,13 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Universitat Hamburg",
+      "location": "Hamburg, Germany",
+      "url": "https://www.uni-hamburg.de/",
+      "area": "Theoretical Physics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2016-09-15",
+      "endDate": "2021-06-08",
       "score": "10",
       "courses": ["Theory of Relativity"]
     }
