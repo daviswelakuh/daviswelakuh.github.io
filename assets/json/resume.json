@@ -24,14 +24,14 @@
   },
   "work": [
     {
-      "name": "Hewlett Packard Enterprise, NY, USA",
-      "location": "New York, USA",
-      "position": "Senior HPC Application Engineer: Computational Physics and Chemistry",
-      "url": "https://hpe.com",
-      "startDate": "2024-02-05",
-      "endDate": " ",
-      "highlights": ["Develop and optimize HPC applications for computational.", "Collaborate with sc."]
-    }       
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
+      "url": "https://example.com",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
+    }   
   ],
   "volunteer": [
     {
