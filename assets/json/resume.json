@@ -6,7 +6,7 @@
     "email": "davis.welakuh.research@gmail.com",
     "phone": "(781) 219-1123",
     "url": "https://daviswelakuh.github.io/",
-    "summary": ["A highly skilled High-Performance Computing (HPC) Application Engineer with focus on computational physics and chemistry software. Extensive experience in developing, optimizing, and scaling scientific and engineering applications for large-scale HPC & AI systems.",
+    "highlights": ["A highly skilled High-Performance Computing (HPC) Application Engineer with focus on computational physics and chemistry software. Extensive experience in developing, optimizing, and scaling scientific and engineering applications for large-scale HPC & AI systems.",
                 "Proficient in parallel programming, performance analysis, and system architecture, with expertise in leveraging multi-core processors, GPUs, and distributed computing frameworks. Adept at working with industry-standard HPC tools and libraries to enhance performance and efficiency across a variety of domains including computational physics, chemistry, and molecular dynamics.",
                 "Theoretical and computational quantum physicist with $9$ years expertise in quantum chemistry, quantum optics, condensed matter physics, nonlinear optics and quantum entanglement. Scientific communicator with at least $13$ publications in scientific journals, more than a dozen talks at national and international conferences. Practical problem-motivated scientific software programmer in FORTRAN, Python, MATLAB, and IBM's Qiskit and  for large-scale simulations/calculations. Active developer of an open-source computational physics/chemistry software Octopus."],
     "location": {
@@ -51,10 +51,10 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Universität Hamburg",
+      "location": "Hamburg, Germany",
+      "url": "https://www.uni-hamburg.de/",
+      "area": "Theoretical Physics",
       "studyType": "PhD",
       "startDate": "1905-01-01",
       "endDate": "1905-01-01",
