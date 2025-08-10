@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an active researcher with broad and evolving interests in cutting-edge areas of theoretical and computational physics and chemistry. My research spans multiple interdisciplinary fields, including polaritonic chemistry, high-harmonic generation, and the generation of nonclassical states of light, where I explore light-matter interactions from both fundamental and applied perspectives.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In parallel with my research, I am a core developer of [Octopus](https://octopus-code.org/), a Fortran-based open-source code for real-space time-dependent density functional theory (TDDFT). My contributions focus on extending its capabilities for simulating complex quantum dynamics interacting with the electromagnetic field from first-principles and ensuring robust, scalable performance on modern computing architectures.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I also work as an HPC Applications Engineer, where I specialize in optimizing scientific applications for high-performance computing systems, with a focus on improving performance on both CPU and GPU platforms. My goal is to bridge the gap between physical theory, numerical methods, and hardware performance to enable large-scale simulations that push the boundaries of current research.
