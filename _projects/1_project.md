@@ -8,22 +8,7 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+You can also put regular text between your rows of images, even citations {% cite flick2019 %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
@@ -51,19 +36,8 @@ q_{\alpha}(t) = q_{\alpha}(t_{0})\cos(\omega_{\alpha}t) + \frac{\dot{q}_{\alpha}
 $$
 The Kohn-Sham potential $v_{\textrm{KS}}(\textbf{r},t)$ is made up of the external potential $v(\textbf{r},t)$ and the mean-field exchange-correlation potential $v_{\textrm{Mxc}}(\textbf{r},t)$ which can be separated into $v_{\textrm{Mxc}}(\textbf{r},t)=v_{\textrm{Hxc}}(\textbf{r},t) + v_{\textrm{pxc}}(\textbf{r},t)$ where $v_{\textrm{Hxc}}(\textbf{r},t)$ and $v_{\textrm{pxc}}(\textbf{r},t)$ are respectively the Hatree exchange-correlation and electron-photon exchange-correlation potentials. The mode-resolved Maxwell equation couples to the Kohn-Sham equation via the electronic dipole $\textbf{R}(t)$ and $\boldsymbol{\lambda}_{\alpha}$ represents the light-matter coupling strength. For the calculations in this tutorial, we set the external current $j_{\alpha}(t)=0$ and the perturbation comes only from $v(\textbf{r},t)$.
 
-As a last remark, we note that in the decoupling limit between light and matter (i.e. when $\boldsymbol{\lambda}_{\alpha} \rightarrow 0$), the Maxwell-Kohn-Sham equations decouples to the electron-only Kohn-Sham equation since $v_{\textrm{Mxc}}(\textbf{r},t) \rightarrow v_{\textrm{Hxc}}(\textbf{r},t)$.
+As a last remark, we note that in the decoupling limit between light and matter (i.e. when $ \boldsymbol{\lambda}_{\alpha} \rightarrow 0 $), the Maxwell-Kohn-Sham equations decouples to the electron-only Kohn-Sham equation since $v_{\textrm{Mxc}}(\textbf{r},t) \rightarrow v_{\textrm{Hxc}}(\textbf{r},t)$.
 
-
-## References
-For details about time-dependent QEDFT, refer to the following:
-
-[1] Davis M. Welakuh, [Ab initio Strong Light-Matter Theoretical Framework for Phenomena in Non-relativistic Quantum Electrodynamics](https://ediss.sub.uni-hamburg.de/handle/ediss/9069).
-
-[2] M. Ruggenthaler, J. Flick et al., *Quantum-electrodynamical density-functional theory: Bridging quantum optics and electronic-structure theory* [Phys. Rev. A 90, 012508 (2014)](https://doi.org/10.1103/PhysRevA.90.012508).
-
-[3] J. Flick, M. Ruggenthaler, H. Appel, and A. Rubio, *Kohn–Sham approach to quantum electrodynamical density-functional theory: Exact time-dependent effective potentials in real space* [Proc.Natl. Acad. Sci. U.S.A. 112, 15285 (2015)](https://doi.org/10.1073/pnas.151822411).
-
-[4] Johannes Flick and P. Narang., *Cavity-Correlated Electron-Nuclear Dynamics from First Principles*, [Phys. Rev. Lett. 121, 113002 (2018)](https://doi.org/10.1103/PhysRevLett.121.113002).
 
 # The electron-photon Casida equation:
 
@@ -113,13 +87,6 @@ matrix is $(N_{s} \times N_{s})$.
 As a last remark, we note that in the decoupling limit between light and matter (i.e. when the light-matter coupling $\boldsymbol{\lambda}_{\alpha} \rightarrow 0$), the electron-photon Casida equation simplifies to the electron-only Casida equation given by $U\, \textbf{E}_{v} = \Omega^{2}_{q} \, \textbf{E}_{v}$ where $U$ has no dependence on mean-field kernel, i.e., $f^n_\text{pxc} \rightarrow 0$.
 
 
-## References
-For details about the electron-photon Casida equation, refer to the following:
-
-[1] Davis M. Welakuh, [Ab initio Strong Light-Matter Theoretical Framework for Phenomena in Non-relativistic Quantum Electrodynamics](https://ediss.sub.uni-hamburg.de/handle/ediss/9069)
-
-[2] Johannes Flick, Davis M. Welakuh et al., *Light-Matter Response in Nonrelativistic Quantum Electrodynamics*, [ACS Photonics 6, 11, 2757–2778 (2019)](https://doi.org/10.1021/acsphotonics.9b00768).
-
 # The electron-photon sternheimer approach
 
 The uncoupled Sternheimer approach is also known as density-functional perturbation theory. The approach has superior scaling, is more efficient for dense spectra, and is more applicable to nonlinear response. One disadvantage is that one needs to proceed one frequency point at a time, rather than getting the whole spectrum at once. This disadvantage is normally circumvented using parallel architectures since the frequency-dependent Sternheimer equation parallelizes naturally as the responses at different frequencies can be computed independently of each other.
@@ -155,9 +122,6 @@ The frequency-dependnent term $f^n_\text{Mxc}=f^n_\text{Hxc} + f^n_\text{pxc}$ i
 
 As a last remark, we note that in the decoupling limit between light and matter (i.e. when the light-matter coupling $\boldsymbol{\lambda}_{\alpha} \rightarrow 0$), the photon dispalcement field $q_{\alpha}(\omega)$ decouples and electron-photon Sternheimer equations simplifies to the electron-only Sterneheimer equation.
 
-[2] Davis M. Welakuh, J. Flick et al., *Frequency-Dependent Sternheimer Linear-Response Formalism for
-Strongly Coupled Light−Matter Systems* [J. Chem. Theory Comput. 2022, 18, 4354−4365](https://doi.org/10.1021/acs.jctc.2c00076).
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/QEDFT_methods_benzene.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -166,6 +130,23 @@ Strongly Coupled Light−Matter Systems* [J. Chem. Theory Comput. 2022, 18, 4354
 <div class="caption">
     Schematics of the Maxwell Kohn-Sham approach (right) contrasted with schematics of the usual semiclassical Kohn-Sham theory (left).
 </div>
+
+
+## References
+For details about time-dependent QEDFT, refer to the following:
+
+[1] Davis M. Welakuh, [Ab initio Strong Light-Matter Theoretical Framework for Phenomena in Non-relativistic Quantum Electrodynamics](https://ediss.sub.uni-hamburg.de/handle/ediss/9069).
+
+[2] M. Ruggenthaler, J. Flick et al., *Quantum-electrodynamical density-functional theory: Bridging quantum optics and electronic-structure theory* [Phys. Rev. A 90, 012508 (2014)](https://doi.org/10.1103/PhysRevA.90.012508).
+
+[3] J. Flick, M. Ruggenthaler, H. Appel, and A. Rubio, *Kohn–Sham approach to quantum electrodynamical density-functional theory: Exact time-dependent effective potentials in real space* [Proc.Natl. Acad. Sci. U.S.A. 112, 15285 (2015)](https://doi.org/10.1073/pnas.151822411).
+
+[4] Johannes Flick and P. Narang., *Cavity-Correlated Electron-Nuclear Dynamics from First Principles*, [Phys. Rev. Lett. 121, 113002 (2018)](https://doi.org/10.1103/PhysRevLett.121.113002).
+
+[5] Johannes Flick, Davis M. Welakuh et al., *Light-Matter Response in Nonrelativistic Quantum Electrodynamics*, [ACS Photonics 6, 11, 2757–2778 (2019)](https://doi.org/10.1021/acsphotonics.9b00768).
+
+[6] Davis M. Welakuh, J. Flick et al., *Frequency-Dependent Sternheimer Linear-Response Formalism for
+Strongly Coupled Light−Matter Systems* [J. Chem. Theory Comput. 2022, 18, 4354−4365](https://doi.org/10.1021/acs.jctc.2c00076).
 
 
 The code is simple.
