@@ -75,8 +75,9 @@ $$
 The coupling matrices in the above equation are given explicitly below
 
 $$
-K_{ai,jb}(\Omega_{q}) = \iint d^{3}\textbf{r} d^{3}\textbf{r}'\varphi_i(\textbf{r})\varphi_a^*(\textbf{r})  \left(f^n_\text{Hxc}+ f^n_\text{pxc}\right)(\textbf{r},\textbf{r}',\Omega_{q})\varphi_b(\textbf{r}')\varphi^*_j(\textbf{r}') \, , \qquad
-M_{\alpha,ai}(\Omega_{q}) = \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi_a^*(\textbf{r}) f^{q_\alpha}_{\text{Mxc}} (\textbf{r},\Omega_{q})  \, ,  \qquad N_{\alpha,ai} = \frac{1}{2\omega_{\alpha}^{2}} \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi^*_a(\textbf{r}) {g^{n_{\alpha}}_{\text{M}}(\textbf{r})} \, .
+K_{ai,jb}(\Omega_{q}) &= \iint d^{3}\textbf{r} d^{3}\textbf{r}'\varphi_i(\textbf{r})\varphi_a^*(\textbf{r})  \left(f^n_\text{Hxc}+ f^n_\text{pxc}\right)(\textbf{r},\textbf{r}',\Omega_{q})\varphi_b(\textbf{r}')\varphi^*_j(\textbf{r}') \, , \nonumber \\
+M_{\alpha,ai}(\Omega_{q}) &= \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi_a^*(\textbf{r}) f^{q_\alpha}_{\text{Mxc}} (\textbf{r},\Omega_{q})  \, , \nonumber \\ 
+N_{\alpha,ai} &= \frac{1}{2\omega_{\alpha}^{2}} \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi^*_a(\textbf{r}) {g^{n_{\alpha}}_{\text{M}}(\textbf{r})} \, .
 $$
 
 Here $\varphi_{i}(\textbf{r})$ represents the occupied Kohn-Sham orbitals and $\epsilon_{i}$ the eigenvalues, where the transition frequencies $\omega_{q} = (\epsilon_{a} - \epsilon_{i})$. As in the original Casida equation, the equation is contructed in an electron-hole basis, and in our notation the subscript $a$ runs over the unoccupied Kohn-Sham states and $i$ over the occupied states. The frequency-dependent term $f^n_\text{Hxc}$ is the  Hatree exchange-correlation kernel that accounts for electron-electron interactions and $f_{\text{pxc}}^{n}$, $f_{\text{pxc}}^{q_\alpha}$ and $g_{\text{M}}^{n_{\alpha}}$ are the mean-field exchange-correlation kernels that account for electron-photon interactions.
