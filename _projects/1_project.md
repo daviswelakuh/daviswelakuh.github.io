@@ -75,8 +75,8 @@ $$
 The coupling matrices in the above equation are given explicitly below
 
 $$
-K_{ai,jb}(\Omega_{q}) &= \iint d^{3}\textbf{r} d^{3}\textbf{r}'\varphi_i(\textbf{r})\varphi_a^*(\textbf{r})  \left(f^n_\text{Hxc}+ f^n_\text{pxc}\right)(\textbf{r},\textbf{r}',\Omega_{q})\varphi_b(\textbf{r}')\varphi^*_j(\textbf{r}') \, , \nonumber \\
-M_{\alpha,ai}(\Omega_{q}) &= \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi_a^*(\textbf{r}) f^{q_\alpha}_{\text{Mxc}} (\textbf{r},\Omega_{q})  \, , \nonumber \\ 
+K_{ai,jb}(\Omega_{q}) &= \iint d^{3}\textbf{r} d^{3}\textbf{r}'\varphi_i(\textbf{r})\varphi_a^*(\textbf{r})  \left(f^n_\text{Hxc}+ f^n_\text{pxc}\right)(\textbf{r},\textbf{r}',\Omega_{q})\varphi_b(\textbf{r}')\varphi^*_j(\textbf{r}') \, , \\
+M_{\alpha,ai}(\Omega_{q}) &= \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi_a^*(\textbf{r}) f^{q_\alpha}_{\text{Mxc}} (\textbf{r},\Omega_{q})  \, , \\ 
 N_{\alpha,ai} &= \frac{1}{2\omega_{\alpha}^{2}} \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi^*_a(\textbf{r}) {g^{n_{\alpha}}_{\text{M}}(\textbf{r})} \, .
 $$
 
