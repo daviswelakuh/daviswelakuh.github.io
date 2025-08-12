@@ -21,32 +21,20 @@ To give your project a background in the portfolio page, just add the img tag to
     img: /assets/img/12.jpg
     ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+
+You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+Say you wanted to write a bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/tddft-qedft.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Schematics of the Maxwell Kohn-Sham approach (right) contrasted with schematics of the usual semiclassical Kohn-Sham theory (left).
 </div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 # Time-dependent QEDFT:
 
@@ -163,24 +151,22 @@ $$
 \delta v_{\textrm{KS}}(\textbf{r},\omega) = \delta v(\textbf{r},\omega) + \int d^{3}\textbf{r}' f_{\textrm{Mxc}}^{n}(\textbf{r},\textbf{r}',\omega) \delta n(\textbf{r}',\omega) + \sum_{\alpha} f_{\textrm{Mxc}}^{q_{\alpha}}(\textbf{r},\omega)\delta  q_{\alpha}(\omega)
 $$
 
-The frequency-dependnent term $f^n_\text{Mxc}=f^n_\text{Hxc} + f^n_\text{pxc}$ is the mean-field exhange-correlation kernel which is a sum of the Hartree exchange-correlation kernel $f^n_\text{Hxc}$ and electron-photon exchange-correlation $f^n_\text{pxc}$ kernel. The terms $f^{q_\alpha}_\text{pxc}$ and $g^{n_{\alpha}}_{\text{M}}$ are also electron-photon exchange-correlation kernels that account for electron-photon interactions.
+The frequency-dependnent term $f^n_\text{Mxc}=f^n_\text{Hxc} + f^n_\text{pxc}$ is the mean-field exhange-correlation kernel which is a sum of the Hartree exchange-correlation kernel $f^n_\text{Hxc}$ and electron-photon exchange-correlation $f^n_\text{pxc}$ kernel. The terms $f^{q_{\alpha}}_{\text{pxc}}$ and $g_{\text{M}}^{n_{\alpha}}$ are also electron-photon exchange-correlation kernels that account for electron-photon interactions.
 
 As a last remark, we note that in the decoupling limit between light and matter (i.e. when the light-matter coupling $\boldsymbol{\lambda}_{\alpha} \rightarrow 0$), the photon dispalcement field $q_{\alpha}(\omega)$ decouples and electron-photon Sternheimer equations simplifies to the electron-only Sterneheimer equation.
 
 [2] Davis M. Welakuh, J. Flick et al., *Frequency-Dependent Sternheimer Linear-Response Formalism for
 Strongly Coupled Light−Matter Systems* [J. Chem. Theory Comput. 2022, 18, 4354−4365](https://doi.org/10.1021/acs.jctc.2c00076).
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/QEDFT_methods_benzene.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Schematics of the Maxwell Kohn-Sham approach (right) contrasted with schematics of the usual semiclassical Kohn-Sham theory (left).
 </div>
+
 
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
