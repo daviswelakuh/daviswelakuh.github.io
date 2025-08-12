@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Davis M. Welakuh",
+    "label": "Researcher and HPC Applications Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "davis.welakuh.research@gmail.com",
+    "phone": "On request",
+    "url": "https://daviswelakuh.github.io/",
+    "summary": "A highly skilled High-Performance Computing (HPC) Application Engineer with focus on computational physics and chemistry ",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "461 5th Ave",
+      "postalCode": "NY 10017",
+      "city": "New York",
       "countryCode": "US",
-      "region": "California"
+      "region": "New York"
     },
     "profiles": [
       {
@@ -24,14 +24,50 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
+      "name": "Hewlett Packard Enterprise, NY, USA",
+      "location": "New York, USA",
+      "position": "Senior HPC Application Engineer: Computational Physics and Chemistry",
+      "url": "https://hpe.com",
+      "startDate": "2024-02-05",
+      "endDate": "Present",
+      "highlights": ["Develop and optimize HPC applications for computational.", "Collaborate with sc."]
+    },
+    {
+      "name": "New York University, New York NY, USA",
+      "location": "New York, USA",
+      "position": "Postdoctoral Research Fellow",
+      "url": "https://wp.nyu.edu/sccpc/",
+      "startDate": "2023-07-01",
+      "endDate": "2024-01-31",
+      "highlights": ["Conducting theoretical and computational research in areas of quantum system engineering and nonlinear frequency generation for applications in quantum information processing protocols and nanoscale sources of extreme ultraviolet light.", "Collaborating with other scientist (theorist and experimentalist) providing expertise in areas of physical system modeling, quantum system engineering, Big Data and statistical analysis.", "Scientific peer review work in top scientific journals.", "Active developer and maintainer of my Python-based scientific software, LIBQED."]
+    },
+    {
+      "name": "University of California, Los Angeles CA, USA.",
+      "location": "California, USA",
+      "position": "Postdoctoral Research Scholar",
+      "url": "https://www.chemistry.ucla.edu/",
+      "startDate": "2022-07-01",
+      "endDate": "2023-07-30",
+      "highlights": ["Conducting theoretical and computational research in areas of quantum system engineering and nonlinear frequency generation for applications in quantum information processing protocols and nanoscale sources of extreme ultraviolet light.", "Collaborating with other scientist (theorist and experimentalist) providing expertise in areas of physical system modeling, quantum system engineering, Big Data and statistical analysis.", "Scientific peer review work in top scientific journals.", "Active developer and maintainer of my Python-based scientific software, LIBQED."]
+    },
+    {
+      "name": "Harvard Univeristy, Cambridge MA, USA.",
+      "location": "Massachusetts, USA",
+      "position": "Postdoctoral Research Scholar",
+      "url": "https://seas.harvard.edu/",
+      "startDate": "2021-06-15",
+      "endDate": "2023-07-30",
+      "highlights": ["Conducting theoretical and computational research in areas of quantum system engineering and nonlinear frequency generation for applications in quantum information processing protocols and nanoscale sources of extreme ultraviolet light.", "Collaborating with other scientist (theorist and experimentalist) providing expertise in areas of physical system modeling, quantum system engineering, Big Data and statistical analysis.", "Scientific peer review work in top scientific journals.", "Active developer and maintainer of my Python-based scientific software, LIBQED."]
+    },
+    {
+      "name": "Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany.",
+      "location": "Hamburg, Germany",
+      "position": "Doctoral Research Scholar",
+      "url": "https://www.mpsd.mpg.de/en",
+      "startDate": "2016-09-15",
+      "endDate": "2021-05-31",
+      "highlights": ["Conducted theoretical and computational research on controling or modifying properties of matter interacting strongly with photons within quantum electrodynamics environment using first-principles methods.", "Extended well-known linear-response Casida and Sternheimer methods for calculating matter properties within time-dependent density-functional theory formalism (DFT) to quantum electrodynamical density-functional theory (QEDFT) that treats strongly coupled matter-photon systems.", "Contributed to the programming and development of the open-source scientific software octopus, in a collaborative team environment.", "Developed my own Python-based multi-purpose computational software known as LIBQED, to investigate the exact properties of strongly coupled matter-photon systems."]
+    }      
   ],
   "volunteer": [
     {
@@ -47,16 +83,35 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Universitat Hamburg",
+      "location": "Hamburg, Germany",
+      "url": "https://www.uni-hamburg.de/",
+      "area": "Theoretical Physics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
+      "startDate": "2016-09-15",
+      "endDate": "2021-06-08",
       "courses": ["Theory of Relativity"]
-    }
+    },
+    {
+      "institution": "University of Buea",
+      "location": "Buea, Cameroon",
+      "url": "https://www.ubua.cm/",
+      "area": "Theoretical Physics",
+      "studyType": "M.Sc.",
+      "startDate": "2013-10-01",
+      "endDate": "2015-07-29",
+      "courses": ["Theory of Relativity"]
+    },
+    {
+      "institution": "University of Buea",
+      "location": "Buea, Cameroon",
+      "url": "https://www.ubua.cm/",
+      "area": "Theoretical Physics",
+      "studyType": "B.Sc.",
+      "startDate": "2010-10-01",
+      "endDate": "2013-07-29",
+      "courses": ["Theory of Relativity"]
+    }        
   ],
   "awards": [
     {
