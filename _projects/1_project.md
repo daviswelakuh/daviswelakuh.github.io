@@ -9,6 +9,11 @@ related_publications: true
 ---
 
 You can also put regular text between your rows of images, even citations {% cite flick2019 %}.
+You can also put regular text between your rows of images, even citations {% cite welakuh2022 %}.
+You can also put regular text between your rows of images, even citations {% cite welakuh2021thesis %}.
+
+
+
 Say you wanted to write a bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
@@ -132,40 +137,3 @@ As a last remark, we note that in the decoupling limit between light and matter 
     Schematics of the Maxwell Kohn-Sham approach (right) contrasted with schematics of the usual semiclassical Kohn-Sham theory (left).
 </div>
 
-
-## References
-For details about time-dependent QEDFT, refer to the following:
-
-[1] Davis M. Welakuh, [Ab initio Strong Light-Matter Theoretical Framework for Phenomena in Non-relativistic Quantum Electrodynamics](https://ediss.sub.uni-hamburg.de/handle/ediss/9069).
-
-[2] M. Ruggenthaler, J. Flick et al., *Quantum-electrodynamical density-functional theory: Bridging quantum optics and electronic-structure theory* [Phys. Rev. A 90, 012508 (2014)](https://doi.org/10.1103/PhysRevA.90.012508).
-
-[3] J. Flick, M. Ruggenthaler, H. Appel, and A. Rubio, *Kohn–Sham approach to quantum electrodynamical density-functional theory: Exact time-dependent effective potentials in real space* [Proc.Natl. Acad. Sci. U.S.A. 112, 15285 (2015)](https://doi.org/10.1073/pnas.151822411).
-
-[4] Johannes Flick and P. Narang., *Cavity-Correlated Electron-Nuclear Dynamics from First Principles*, [Phys. Rev. Lett. 121, 113002 (2018)](https://doi.org/10.1103/PhysRevLett.121.113002).
-
-[5] Johannes Flick, Davis M. Welakuh et al., *Light-Matter Response in Nonrelativistic Quantum Electrodynamics*, [ACS Photonics 6, 11, 2757–2778 (2019)](https://doi.org/10.1021/acsphotonics.9b00768).
-
-[6] Davis M. Welakuh, J. Flick et al., *Frequency-Dependent Sternheimer Linear-Response Formalism for
-Strongly Coupled Light−Matter Systems* [J. Chem. Theory Comput. 2022, 18, 4354−4365](https://doi.org/10.1021/acs.jctc.2c00076).
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
