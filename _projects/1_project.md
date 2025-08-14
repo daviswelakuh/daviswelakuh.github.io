@@ -12,12 +12,6 @@ Quantum Electrodynamical Density-Functional Theory (QEDFT) is an extension of De
 
 Focusing on excited-states properties of such strongly coupled light-matter systems, standard electronic structure methods such as Casida and Sternheimer approaches have been extending within the framework of QEDFT to capture or predict modification of matter properties due to its strong interaction with photons. These methods are outlined below.
 
-You can also put regular text between your rows of images, even citations {% cite flick2019 %}.
-You can also put regular text between your rows of images, even citations {% cite welakuh2022 %}.
-
-
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/tddft-qedft.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -29,7 +23,7 @@ You can also put regular text between your rows of images, even citations {% cit
 
 # Time-dependent QEDFT:
 
-Time-dependent QEDFT {% cite welakuh2021thesis %} is an extension of standard Time-dependent Density-Functional Theory (TDDFT) that incorporates not only the dynamics of electrons but also the quantized electromagnetic field (photons) in a self-consistently coupled way as contrasted in the figure. For practical purposes, QEDFT maps the many-body electron-photon problem to a time-dependent Maxwell-Kohn-Sham system, where: (1) The electronic part is represented by the time-dependent Kohn–Sham equations for electrons and (2) the photonic part is described by harmonic oscillator-like equations for the quantized photon modes, using photon coordinates as dynamical variables.
+Time-dependent QEDFT {% cite ruggenthaler2014, welakuh2021thesis %} is an extension of standard Time-dependent Density-Functional Theory (TDDFT) that incorporates not only the dynamics of electrons but also the quantized electromagnetic field (photons) in a self-consistently coupled way as contrasted in the figure. For practical purposes, QEDFT maps the many-body electron-photon problem to a time-dependent Maxwell-Kohn-Sham system, where: (1) The electronic part is represented by the time-dependent Kohn–Sham equations for electrons and (2) the photonic part is described by harmonic oscillator-like equations for the quantized photon modes, using photon coordinates as dynamical variables.
 
 $$
 i\hbar \frac{\partial}{\partial t} \varphi_{i}(\textbf{r},t) = \left( \frac{\hat{\textbf{p}}^{2}}{2m} + \underbrace{v(\textbf{r},t) +  v_{\textrm{Mxc}}([n,q_{\alpha}];\textbf{r},t) }_{v_{\textrm{KS}}([v,n,q_{\alpha}];\textbf{r},t)} \right)\varphi_{i}(\textbf{r},t) ,  \quad \textrm{and} \quad
@@ -45,9 +39,9 @@ The Kohn-Sham potential $v_{\textrm{KS}}(\textbf{r},t)$ is made up of the extern
 As a last remark, we note that in the decoupling limit between light and matter (i.e. when $$ \boldsymbol{\lambda}_{\alpha} \rightarrow 0 $$), the Maxwell-Kohn-Sham equations decouples to the electron-only Kohn-Sham equation since $v_{\textrm{Mxc}}(\textbf{r},t) \rightarrow v_{\textrm{Hxc}}(\textbf{r},t)$.
 
 
-# The electron-photon Casida equation:
+# The Casida formalism within QEDFT framework:
 
-The optical spectra of a strongly coupled light-matter system for finite systems can be obtained from the electron-photon Casida equation
+The Casida formalism within QEDFT framework {% cite flick2019 %} is an extension of the standard Casida approach in TDDFT. It is as well a standard linear-response technique used to calculate excitation energies and oscillator strengths of an atomic, molecular and solid-state systems interacting strongly with photons directly from the Kohn-Sham (KS) ground state and photon coordinate. The  pseudo-eigenvalue problem within QEDFT framework is given as below
 
 $$
 \left(
@@ -71,7 +65,7 @@ $$
 \right)
 $$
 
-where $\omega_{\alpha}$ represents the frequencies of the photon modes, $\Omega_{q}$ are the excitation frequencies of the coupled system, $\textbf{E}_{v}$ and $\textbf{P}_{v}$ are the eigenvectors and, the matrices $U$ and $V$ are given by
+where $\omega_{\alpha}$ represents the frequencies of the photon modes, $\Omega_{q}$ are the excitation frequencies of the coupled system, $$\textbf{E}_{v}$$ and $$\textbf{P}_{v}$$ are the eigenvectors and, the matrices $U$ and $V$ are given by
 
 $$
 U_{qq'} = \delta_{qq'}\omega_{q}^{2} + 2\sqrt{\omega_{q}\omega_{q'}}K_{qq'}(\Omega_{q}) \, , \qquad 
@@ -81,20 +75,20 @@ $$
 The coupling matrices in the above equation are given explicitly below
 
 $$
-K_{ai,jb}(\Omega_{q}) &= \iint d^{3}\textbf{r} d^{3}\textbf{r}'\varphi_i(\textbf{r})\varphi_a^*(\textbf{r})  \left(f^n_\text{Hxc}+ f^n_\text{pxc}\right)(\textbf{r},\textbf{r}',\Omega_{q})\varphi_b(\textbf{r}')\varphi^*_j(\textbf{r}') \, , \\
-M_{\alpha,ai}(\Omega_{q}) &= \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi_a^*(\textbf{r}) f^{q_\alpha}_{\text{Mxc}} (\textbf{r},\Omega_{q})  \, , \\ 
-N_{\alpha,ai} &= \frac{1}{2\omega_{\alpha}^{2}} \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi^*_a(\textbf{r}) {g^{n_{\alpha}}_{\text{M}}(\textbf{r})} \, .
+K_{ai,jb}(\Omega_{q}) = \iint d^{3}\textbf{r} d^{3}\textbf{r}'\varphi_i(\textbf{r})\varphi_a^*(\textbf{r})  \left(f^n_\text{Hxc}+ f^n_\text{pxc}\right)(\textbf{r},\textbf{r}',\Omega_{q})\varphi_b(\textbf{r}')\varphi^*_j(\textbf{r}') \, , \\
+M_{\alpha,ai}(\Omega_{q}) = \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi_a^*(\textbf{r}) f^{q_\alpha}_{\text{Mxc}} (\textbf{r},\Omega_{q})  \, , \\ 
+N_{\alpha,ai} = \frac{1}{2\omega_{\alpha}^{2}} \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi^*_a(\textbf{r}) {g^{n_{\alpha}}_{\text{M}}(\textbf{r})} \, .
 $$
 
 Here $\varphi_{i}(\textbf{r})$ represents the occupied Kohn-Sham orbitals and $\epsilon_{i}$ the eigenvalues, where the transition frequencies $\omega_{q} = (\epsilon_{a} - \epsilon_{i})$. As in the original Casida equation, the equation is contructed in an electron-hole basis, and in our notation the subscript $a$ runs over the unoccupied Kohn-Sham states and $i$ over the occupied states. The frequency-dependent term $f^n_\text{Hxc}$ is the  Hatree exchange-correlation kernel that accounts for electron-electron interactions and $f_{\text{pxc}}^{n}$, $f_{\text{pxc}}^{q_\alpha}$ and $g_{\text{M}}^{n_{\alpha}}$ are the mean-field exchange-correlation kernels that account for electron-photon interactions.
 
-The dimension of the electron-photon Casida matrix is determined from the number of states $N_{s}=N_{i}N_{a}+N_{p}$, where $N_{i}$ and $N_{a}$ are respectively the number of occupied and unoccupied states while $N_{p}$ represents the number of photon modes. The resulting dimension of the coupled but truncated
-matrix is $(N_{s} \times N_{s})$.
+The dimension of the electron-photon Casida matrix is determined from the number of states $N_{s}=N_{i}N_{a}+N_{p}$, where $N_{i}$ and $N_{a}$ are respectively the number of occupied and unoccupied states while $N_{p}$ represents the number of photon modes. The resulting dimension of the coupled but truncated matrix is $(N_{s} \times N_{s})$.
 
-As a last remark, we note that in the decoupling limit between light and matter (i.e. when the light-matter coupling $\boldsymbol{\lambda}_{\alpha} \rightarrow 0$), the electron-photon Casida equation simplifies to the electron-only Casida equation given by $U\, \textbf{E}_{v} = \Omega^{2}_{q} \, \textbf{E}_{v}$ where $U$ has no dependence on mean-field kernel, i.e., $f^n_\text{pxc} \rightarrow 0$.
+As a last remark, we note that in the decoupling limit between light and matter (i.e. when the light-matter coupling $$\boldsymbol{\lambda}_{\alpha} \rightarrow 0$$), the electron-photon Casida equation simplifies to the electron-only Casida equation given by $$U\, \textbf{E}_{v} = \Omega^{2}_{q} \, \textbf{E}_{v}$$ where $U$ has no dependence on mean-field kernel, i.e., $f_\text{pxc}^{n} \rightarrow 0$.
 
+You can also put regular text between your rows of images, even citations {% cite welakuh2022 %}.
 
-# The electron-photon sternheimer approach
+# The Sternheimer formalism within QEDFT framework
 
 The uncoupled Sternheimer approach is also known as density-functional perturbation theory. The approach has superior scaling, is more efficient for dense spectra, and is more applicable to nonlinear response. One disadvantage is that one needs to proceed one frequency point at a time, rather than getting the whole spectrum at once. This disadvantage is normally circumvented using parallel architectures since the frequency-dependent Sternheimer equation parallelizes naturally as the responses at different frequencies can be computed independently of each other.
 
