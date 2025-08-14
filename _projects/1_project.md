@@ -1,21 +1,22 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: QEDFT
+description: An extension of density-functional theory that solves practical QED problems.
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
+Quantum Electrodynamical Density-Functional Theory (QEDFT) is an extension of Density-Functional Theory (DFT) that explicitly includes the interaction between electrons and quantized electromagnetic fields (photons) within a cavity quantum electrodynamics framework. Standard DFT solves for the electron density in an external potential (nuclei, applied fields, etc.). In many modern systems -- such as molecules in optical cavities, plasmonic nanostructures, or other quantum electrodynamical environments that can achieve strong light-matter interaction -- photons can significantly change the electronic structure and hence properties of matter. QEDFT extends DFT to treat such different settings of strongly coupled light-matter systems. 
+
+Focusing on excited-states properties of such strongly coupled light-matter systems, standard electronic structure methods such as Casida and Sternheimer approaches have been extending within the framework of QEDFT to capture or predict modification of matter properties due to its strong interaction with photons. These methods are outlined below.
+
 You can also put regular text between your rows of images, even citations {% cite flick2019 %}.
 You can also put regular text between your rows of images, even citations {% cite welakuh2022 %}.
-You can also put regular text between your rows of images, even citations {% cite welakuh2021thesis %}.
 
 
 
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,25 +24,25 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     </div>
 </div>
 <div class="caption">
-    Schematics of the Maxwell Kohn-Sham approach (right) contrasted with schematics of the usual semiclassical Kohn-Sham theory (left).
+    Schematics of the usual semiclassical Kohn-Sham theory (left) contrasted with schematics of the  Maxwell Kohn-Sham approach (right).
 </div>
 
 # Time-dependent QEDFT:
 
-The optical spectra of a strongly coupled light-matter system can be obtained from the time-dependent QEDFT by solving the coupled Maxwell-Kohn-Sham equations
+Time-dependent QEDFT {% cite welakuh2021thesis %} is an extension of standard Time-dependent Density-Functional Theory (TDDFT) that incorporates not only the dynamics of electrons but also the quantized electromagnetic field (photons) in a self-consistently coupled way as contrasted in the figure. For practical purposes, QEDFT maps the many-body electron-photon problem to a time-dependent Maxwell-Kohn-Sham system, where: (1) The electronic part is represented by the time-dependent Kohn–Sham equations for electrons and (2) the photonic part is described by harmonic oscillator-like equations for the quantized photon modes, using photon coordinates as dynamical variables.
 
 $$
 i\hbar \frac{\partial}{\partial t} \varphi_{i}(\textbf{r},t) = \left( \frac{\hat{\textbf{p}}^{2}}{2m} + \underbrace{v(\textbf{r},t) +  v_{\textrm{Mxc}}([n,q_{\alpha}];\textbf{r},t) }_{v_{\textrm{KS}}([v,n,q_{\alpha}];\textbf{r},t)} \right)\varphi_{i}(\textbf{r},t) ,  \quad \textrm{and} \quad
 \left(\frac{\partial^{2}}{\partial t^{2}} + \omega_{\alpha}^{2}\right)  q_{\alpha}(t) = \underbrace{ -\frac{j_{\alpha}(t)}{\omega_{\alpha}} + \omega_{\alpha}\boldsymbol{\lambda}_{\alpha}\cdot \textbf{R}(t) }_{j_{\alpha,\textrm{KS}}(t)}. 
 $$
 
-The Kohn-Sham orbitals $\varphi_{i}(\textbf{r},t)$ can be used to obtain the electronic density  $n(\textbf{r},t) = \sum_{i} |\varphi_i(\textbf{r},t)|^2$, and the photon displacement fields $q_{\alpha}(t)$ with associated mode frequencies $\omega_{\alpha}$ can be obtained analytically from mode-resolved equation of motion which is given by
+The Kohn-Sham orbitals $\varphi_{i}(\textbf{r},t)$ can be used to obtain the electronic density  $n(\textbf{r},t) = \sum_{i} |\varphi_i(\textbf{r},t)|^{2}$, and the photon displacement fields $q_{\alpha}(t)$ with associated mode frequencies $\omega_{\alpha}$ can be obtained analytically from mode-resolved equation of motion which is given by
 $$
 q_{\alpha}(t) = q_{\alpha}(t_{0})\cos(\omega_{\alpha}t) + \frac{\dot{q}_{\alpha}(t_{0})}{\omega_{\alpha}}\sin(\omega_{\alpha}t) - \frac{1}{\omega_{\alpha}^{2}}\int_{t_{0}}^{t}dt'\sin(\omega_{\alpha}(t-t'))j_{\alpha,\textrm{KS}}(t') \, .% \label{photon-q-soln2}
 $$
-The Kohn-Sham potential $v_{\textrm{KS}}(\textbf{r},t)$ is made up of the external potential $v(\textbf{r},t)$ and the mean-field exchange-correlation potential $v_{\textrm{Mxc}}(\textbf{r},t)$ which can be separated into $v_{\textrm{Mxc}}(\textbf{r},t)=v_{\textrm{Hxc}}(\textbf{r},t) + v_{\textrm{pxc}}(\textbf{r},t)$ where $v_{\textrm{Hxc}}(\textbf{r},t)$ and $v_{\textrm{pxc}}(\textbf{r},t)$ are respectively the Hatree exchange-correlation and electron-photon exchange-correlation potentials. The mode-resolved Maxwell equation couples to the Kohn-Sham equation via the electronic dipole $\textbf{R}(t)$ and $\boldsymbol{\lambda}_{\alpha}$ represents the light-matter coupling strength. For the calculations in this tutorial, we set the external current $j_{\alpha}(t)=0$ and the perturbation comes only from $v(\textbf{r},t)$.
+The Kohn-Sham potential $v_{\textrm{KS}}(\textbf{r},t)$ is made up of the external potential $v(\textbf{r},t)$ and the mean-field exchange-correlation potential $v_{\textrm{Mxc}}(\textbf{r},t)$ which can be separated into $v_{\textrm{Mxc}}(\textbf{r},t)=v_{\textrm{Hxc}}(\textbf{r},t) + v_{\textrm{pxc}}(\textbf{r},t)$ where $v_{\textrm{Hxc}}(\textbf{r},t)$ and $v_{\textrm{pxc}}(\textbf{r},t)$ are respectively the Hatree exchange-correlation and electron-photon exchange-correlation potentials. The mode-resolved Maxwell equation couples to the Kohn-Sham equation via the electronic dipole $\textbf{R}(t)$ and $$\boldsymbol{\lambda}_{\alpha}$$ represents the light-matter coupling strength.
 
-As a last remark, we note that in the decoupling limit between light and matter (i.e. when $ \boldsymbol{\lambda}_{\alpha} \rightarrow 0 $), the Maxwell-Kohn-Sham equations decouples to the electron-only Kohn-Sham equation since $v_{\textrm{Mxc}}(\textbf{r},t) \rightarrow v_{\textrm{Hxc}}(\textbf{r},t)$.
+As a last remark, we note that in the decoupling limit between light and matter (i.e. when $$ \boldsymbol{\lambda}_{\alpha} \rightarrow 0 $$), the Maxwell-Kohn-Sham equations decouples to the electron-only Kohn-Sham equation since $v_{\textrm{Mxc}}(\textbf{r},t) \rightarrow v_{\textrm{Hxc}}(\textbf{r},t)$.
 
 
 # The electron-photon Casida equation:
