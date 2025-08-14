@@ -75,9 +75,17 @@ $$
 The coupling matrices in the above equation are given explicitly below
 
 $$
-K_{ai,jb}(\Omega_{q}) = \iint d^{3}\textbf{r} d^{3}\textbf{r}'\varphi_i(\textbf{r})\varphi_a^*(\textbf{r})  \left(f^n_\text{Hxc}+ f^n_\text{pxc}\right)(\textbf{r},\textbf{r}',\Omega_{q})\varphi_b(\textbf{r}')\varphi^*_j(\textbf{r}') \, , \\
-M_{\alpha,ai}(\Omega_{q}) = \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi_a^*(\textbf{r}) f^{q_\alpha}_{\text{Mxc}} (\textbf{r},\Omega_{q})  \, , \\ 
-N_{\alpha,ai} = \frac{1}{2\omega_{\alpha}^{2}} \int d^{3}\textbf{r} \varphi_i(\textbf{r})\varphi^*_a(\textbf{r}) {g^{n_{\alpha}}_{\text{M}}(\textbf{r})} \, .
+\begin{aligned}
+K_{ai,jb}(\Omega_{q}) &= \iint d^{3}\mathbf{r} \, d^{3}\mathbf{r}' \,
+\varphi_i(\mathbf{r})\varphi_a^*(\mathbf{r})
+\left(f^n_{\text{Hxc}}+ f^n_{\text{pxc}}\right)(\mathbf{r},\mathbf{r}',\Omega_{q})
+\varphi_b(\mathbf{r}')\varphi^*_j(\mathbf{r}') \,, \\
+M_{\alpha,ai}(\Omega_{q}) &= \int d^{3}\mathbf{r} \,
+\varphi_i(\mathbf{r})\varphi_a^*(\mathbf{r})
+f^{q_\alpha}_{\text{Mxc}} (\mathbf{r},\Omega_{q}) \,, \\
+N_{\alpha,ai} &= \frac{1}{2\omega_{\alpha}^{2}} \int d^{3}\mathbf{r} \,
+\varphi_i(\mathbf{r})\varphi^*_a(\mathbf{r}) g^{n_{\alpha}}_{\text{M}}(\mathbf{r}) \,.
+\end{aligned}
 $$
 
 Here $\varphi_{i}(\textbf{r})$ represents the occupied Kohn-Sham orbitals and $\epsilon_{i}$ the eigenvalues, where the transition frequencies $\omega_{q} = (\epsilon_{a} - \epsilon_{i})$. As in the original Casida equation, the equation is contructed in an electron-hole basis, and in our notation the subscript $a$ runs over the unoccupied Kohn-Sham states and $i$ over the occupied states. The frequency-dependent term $f^n_\text{Hxc}$ is the  Hatree exchange-correlation kernel that accounts for electron-electron interactions and $f_{\text{pxc}}^{n}$, $f_{\text{pxc}}^{q_\alpha}$ and $g_{\text{M}}^{n_{\alpha}}$ are the mean-field exchange-correlation kernels that account for electron-photon interactions.
@@ -86,13 +94,11 @@ The dimension of the electron-photon Casida matrix is determined from the number
 
 As a last remark, we note that in the decoupling limit between light and matter (i.e. when the light-matter coupling $$\boldsymbol{\lambda}_{\alpha} \rightarrow 0$$), the electron-photon Casida equation simplifies to the electron-only Casida equation given by $$U\, \textbf{E}_{v} = \Omega^{2}_{q} \, \textbf{E}_{v}$$ where $U$ has no dependence on mean-field kernel, i.e., $f_\text{pxc}^{n} \rightarrow 0$.
 
-You can also put regular text between your rows of images, even citations {% cite welakuh2022 %}.
+You can also put regular text between your rows of images, even citations .
 
 # The Sternheimer formalism within QEDFT framework
 
-The uncoupled Sternheimer approach is also known as density-functional perturbation theory. The approach has superior scaling, is more efficient for dense spectra, and is more applicable to nonlinear response. One disadvantage is that one needs to proceed one frequency point at a time, rather than getting the whole spectrum at once. This disadvantage is normally circumvented using parallel architectures since the frequency-dependent Sternheimer equation parallelizes naturally as the responses at different frequencies can be computed independently of each other.
-
-The frequency-dependent Sternheimer approach formulated within the framework of QEDFT, determines the correlated electron-photon density and photon displacement coordinate responses in terms of the occupied ground-state Kohn-Sham orbitals $\varphi_{k}(\textbf{r})$ and linear-response $\varphi_{k}^{(\pm)}(\textbf{r},\omega)$ given by
+The frequency-dependent Sternheimer approach formulated within the framework of QEDFT {% cite welakuh2022 %}, determines the correlated electron-photon density and photon displacement coordinate responses in terms of the occupied ground-state Kohn-Sham orbitals $\varphi_{k}(\textbf{r})$ and linear-response $\varphi_{k}^{(\pm)}(\textbf{r},\omega)$ given by
 
 $$
 \delta n(\textbf{r},\omega) 
