@@ -2,7 +2,7 @@
 layout: page
 title: QEDFT
 description: An extension of density-functional theory that solves practical QED problems.
-img: assets/img/12.jpg
+img: assets/img/QEDFT_MKS.png
 importance: 1
 category: work
 related_publications: true
